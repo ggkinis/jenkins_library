@@ -1,5 +1,5 @@
 #!/usr/bin/groovy
-def call(workingDirectory) {
+def call() {
 	stage ('Make dir'){
 		sh "mkdir -p testdir"
 
